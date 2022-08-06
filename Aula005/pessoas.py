@@ -7,7 +7,7 @@ def listar():
     with open('Aula005/pessoas.txt', 'r') as arquivo:
         for l in arquivo:
             l = l.strip()
-            nomes.append(l)
+            nomes.append(l)            
     return nomes
 
 # salvar('Maykon')
