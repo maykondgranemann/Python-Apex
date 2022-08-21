@@ -2,6 +2,7 @@
 <html lang="pt-BR">
     <head>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/form.css">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,14 +17,32 @@
                     <img src="img/apex_logo.jpeg" alt="Logo apex">
                 </a>
             </div>
-
-            <ul>
-                <li><a href="listar.html">Listar</a></li>
-            </ul>
+            <nav>
+                <ul>
+                    <li><a href="listar.html">Listar</a></li>
+                </ul>
+            </nav>
             
+
         </header>
 
         <main>  
+            <form action="" method="post" >
+                <div>
+                    <input type="text" class="campos" id="txt_nome" placeholder="Nome">
+                </div>
+                <div>
+                    <input type="text" class="campos" id="txt_sobrenome" placeholder="SobreNome">
+                </div>
+                <div>
+                    <input type="text" class="campos" id="txt_email" placeholder="E-mail">
+                </div>
+
+                <div>
+                    <input class="botao salvar" type="submit" value="Salvar">
+                    <button class="botao cancelar">Limpar</button>
+                </div>
+            </form>
 
         </main>
 
