@@ -1,0 +1,10 @@
+/* seletores */
+
+body{
+    background: black; 
+    color:#fff;
+}
+h1{
+    text-transform: uppercase;
+    background: #0ff;
+}
