@@ -10,6 +10,34 @@ header{
     background: #000;
     height: 90px;
     width: 100%;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+}
+header img, header nav{
+    margin: 0 20px;
+}
+header img{
+    width: 80px;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    padding: 10px;
+}
+header nav ul li:hover{
+    background: #fff;    
+    cursor: pointer;
+}
+header nav ul li:hover a{
+    color:#000;
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
 }
 main{
     background: #fff;
