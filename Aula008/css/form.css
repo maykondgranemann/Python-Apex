@@ -1,0 +1,40 @@
+form{
+    text-align: center;
+    width: 400px;
+    margin: 20px auto;
+}
+
+.campos{
+    width: 200px;
+    height: 20px;
+    border: 2px green solid;
+    margin: 3px 2px;
+    border-radius: 30px;
+}
+.botao{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100px;
+    height: 20px;
+    border-radius: 30px;
+}
+
+.salvar{
+    background: green;
+    color: white;
+}
+.salvar:hover{
+    background: white;
+    color: green;
+}
+
+.cancelar{
+    background: red;
+    color: white;
+}
+.cancelar:hover{
+    background: white;
+    color: red;
+}
