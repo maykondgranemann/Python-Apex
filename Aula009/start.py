@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect
 from cadastro import listar_nomes, cadastrar_nomes
+from pessoa import Pessoa
 
 app = Flask(__name__)
 
@@ -15,7 +16,8 @@ def cadastrar():
 def salvar():
     nome = request.form['nome']
     sobrenome = request.form['sobrenome']
-    cadastrar_nomes(nome, sobrenome)
+    pessoa = Pessoa(nome, sobrenome)
+    cadastrar_nomes(pessoa)
     return  redirect('/listar')
 
 @app.route('/listar')
